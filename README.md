@@ -25,7 +25,7 @@ This project implements a mobile differential drive robot using ROS 2, featuring
   - `bumperbot_ros2_control.xacro`
   - Launch: `display.launch.py`, `gazebo.launch.py`
 
-  ### 🔹 `bumperbot_controller`
+### 🔹 `bumperbot_controller`
   - Contains the robot's Yaml for setting parameters for bumperbot_controller,Nodes for controlling robot.
   - Launches controller.
   - Converts high-level velocity commands into wheel speeds and publishes them to the robot’s velocity controller.
@@ -35,13 +35,13 @@ This project implements a mobile differential drive robot using ROS 2, featuring
   - `noisy_controller.py`
   - `bumperbot_controller.yaml`
   - Launch: `controller.launch.py`, `keyboard_teleop.launch.py`
-  ### 🔹 `bumperbot_utilis`
+### 🔹 `bumperbot_utilis`
   - Contains the trajctory node.
   - Continuously builds a trajectory path by subscribing to odometry data.
   - Publishes the robot's path as a nav_msgs/Path message for real-time visualization in RViz.
   - Files:
   - `trajectory.py`
-  ### 🔹 `bumperbot_localization`
+### 🔹 `bumperbot_localization`
   - Contains the kalman filter node, imu republisher node.
   - Launches a static transform between base_footprint_ekf and imu_link_ekf, which is needed to align the IMU frame with the robot base for sensor fusion.
   - Starts the ekf_node from robot_localization, loading configuration from ekf.yaml to perform sensor fusion (e.g., IMU + odometry).
