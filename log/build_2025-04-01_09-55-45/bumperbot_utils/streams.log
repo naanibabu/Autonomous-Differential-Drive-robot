@@ -1,0 +1,21 @@
+[0.390s] Invoking command in '/home/nani/bumperbot_ws/src/bumperbot_utils': PYTHONPATH=/home/nani/bumperbot_ws/build/bumperbot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nani/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_utils build --build-base /home/nani/bumperbot_ws/build/bumperbot_utils/build install --record /home/nani/bumperbot_ws/build/bumperbot_utils/install.log --single-version-externally-managed install_data
+[0.510s] running egg_info
+[0.510s] writing ../../build/bumperbot_utils/bumperbot_utils.egg-info/PKG-INFO
+[0.510s] writing dependency_links to ../../build/bumperbot_utils/bumperbot_utils.egg-info/dependency_links.txt
+[0.510s] writing entry points to ../../build/bumperbot_utils/bumperbot_utils.egg-info/entry_points.txt
+[0.510s] writing requirements to ../../build/bumperbot_utils/bumperbot_utils.egg-info/requires.txt
+[0.510s] writing top-level names to ../../build/bumperbot_utils/bumperbot_utils.egg-info/top_level.txt
+[0.511s] reading manifest file '../../build/bumperbot_utils/bumperbot_utils.egg-info/SOURCES.txt'
+[0.520s] writing manifest file '../../build/bumperbot_utils/bumperbot_utils.egg-info/SOURCES.txt'
+[0.520s] running build
+[0.520s] running build_py
+[0.520s] running install
+[0.520s] running install_lib
+[0.521s] running install_data
+[0.521s] running install_egg_info
+[0.522s] removing '/home/nani/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils-0.0.0-py3.10.egg-info' (and everything under it)
+[0.522s] Copying ../../build/bumperbot_utils/bumperbot_utils.egg-info to /home/nani/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils-0.0.0-py3.10.egg-info
+[0.523s] running install_scripts
+[0.534s] Installing simple_trajectory script to /home/nani/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils
+[0.534s] writing list of installed files to '/home/nani/bumperbot_ws/build/bumperbot_utils/install.log'
+[0.547s] Invoked command in '/home/nani/bumperbot_ws/src/bumperbot_utils' returned '0': PYTHONPATH=/home/nani/bumperbot_ws/build/bumperbot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nani/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_utils build --build-base /home/nani/bumperbot_ws/build/bumperbot_utils/build install --record /home/nani/bumperbot_ws/build/bumperbot_utils/install.log --single-version-externally-managed install_data
