@@ -1,4 +1,4 @@
-# 🤖 BumperBot ROS 2 Project
+# 🤖 Differential-Drive-Bot ROS 2 Project
 
 This project implements a mobile differential drive robot using ROS 2, featuring motor control, odometry computation, and sensor fusion using a Kalman Filter. It is designed to work in a simulation or real-world environment and is compatible with visualization tools like PlotJuggler.
 
