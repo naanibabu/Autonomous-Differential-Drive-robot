@@ -1,3 +1,0 @@
-[console_scripts]
-simple_trajectory = bumperbot_utils.simple_trajectory:main
-
